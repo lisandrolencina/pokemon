@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+/* NAV*/
+.nav{
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(53, 52, 52);
+}
+.img-pokemon{
+    margin: 2px; 
+    width: 140px;
+    height: 60px;
+
+}
+
+.img-lupa{
+    margin: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+/* DIV DE BUSQUEDA*/
+.caja-buscar{
+    background-color: rgb(243, 195, 64);
+    box-shadow: -10px 10px 10px rgb(53, 52, 52);
+    height: 150px;
+    width: 100%;
+}
+
+.caja-buscar-2{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    }
+input{
+    border:  3px solid white;
+    border-radius: 5px;
+}
+.h2buscar{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    
+    
+}
+.p-buscar{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.caja-buscar-3{
+    margin: 25px;
+}
+
+.tilde{
+    background-color: greenyellow;
+    width: 20px;
+    height: 20px;
+}
+.equis{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
+
+
+/* POKEDEX*/
+
+
+.pokedex-1{
+    display: flex;
+    
+}
+
+.img-pokedex{
+    margin-top:2%;
+    width: 40px;
+    height: 40px;
+}
+
+.pokedex-title-1{
+    display: flex;
+    margin-left: 23%;
+}
+.title-pokedex{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 2.5% ;
+    margin-left: 1%;
+}
+/* TARJETAS*/
+
+.tarjetas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10%;
+       
+}
+
+.card{
+    height: 15rem;
+    background-color: rgb(233, 230, 230);
+    margin: 0 25px;
+    border-radius: 6px;
+    margin: 15px;
+    
+
+}
+.card-img-top{
+    margin-left: 9%;
+    width: 200px;
+    height: 200px;
+}
+
+.card-texto{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+}
+
+/* CARGANDO*/
+.cargando{
+    margin: 100px;
+    margin-left: 50%;
+    font-family: 'Roboto', sans-serif;
+
+}
+.cargando-img{
+
+        width: 70px;
+        height: 70px;
+}
+
+/*MEDIA QUERYS*/
+@media  screen and (max-width:991px) {
+    .tarjetas{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        justify-content: center;
+        align-content: center;
+       
+    
+    }
+
+    .card{
+        margin: 15px;
+    }
+    
+}
+
+@media  screen and (max-width:850px) {
+    .tarjetas{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-content: center;
+       
+    
+    }
+
+    .card{
+        margin: 15px;
+    }
+    .img-1{
+        padding: 40px 0;
+        width: 100%;
+    }
+    .p-buscar{
+        display: none;
+    }
+}
+
+@media  screen and (max-width:750px) {
+    .tarjetas{
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+        left: 10px;
+       
+    
+    }
+
+    .card{
+        margin: 15px;
+    }
+    .title-pokedex{
+        
+        margin-top: 20% ;
+        
+    }
+    .img-pokedex{
+        margin-top:17%;
+        
+    }
+    
+}
+
+@media  screen and (max-width:411px) {
+    .tarjetas{
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+        left: 5px;
+       
+    
+    }
+     }
+
+
+     @media  screen and (max-width:375px) {
+        .tarjetas{
+            display: grid;
+            grid-template-columns: 1fr;
+            position: relative;
+            left: 0px;
+           
+        
+        }
+         }
+
+         @media  screen and (max-width:375px) {
+            .tarjetas{
+                display: grid;
+                grid-template-columns: 1fr;
+                position: relative;
+                left: 0px;
+               
+            
+            }
+             }
+
+             @media  screen and (max-width:320px) {
+                .tarjetas{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    position: relative;
+                    left: 30px;
+                    width: 200px;
+                   
+                
+                }
+                
+                 }

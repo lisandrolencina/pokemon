@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="img/icPokeball.png" type="image/x-icon">
+</head>
+<body>
+<main>
+
+  <!-- header -->
+  <header>
+    <nav class="nav">
+        <img src="img/logo.png" alt="Pokemon" class="img-pokemon">
+        <img src="img/lupa.png" alt="Lupa" class="img-lupa">
+    </nav>
+
+</header>
+
+
+<!-- Buscar -->
+<div class="caja-buscar">
+    <div class="caja-buscar-2">
+        <div class="caja-buscar-3">
+    <h2 class="h2buscar">BUSCAR POR NOMBRE O NUMERO</h2>
+    <input type="text" id="nombrePokemon" placeholder="Pokemon o ID">
+    <button id="buscarPokemon" class="tilde">✓</button>
+    <button id="borrarPokemon" class="equis">X</button>
+       <p class="p-buscar">Usa la busqueda avanzada para encontrar Pokemons 
+           <br>
+           por los otros filtros</p>
+        </div>
+    </div> 
+   </div>
+
+  <!-- Pokedex -->
+  <div>
+
+    <div class="pokedex-title">
+    <div class="pokedex-title-1">
+     <img src="img/pokeball.png" alt="" class="img-pokedex"> <h2 class="title-pokedex">POKEDEX</h2>
+    </div>
+
+ </div>
+ 
+ </div>
+
+ <section id="app" class="sectionPokedex"></section>
+<!-- Tarjetas-->
+
+<div class="tarjetas">
+   
+    <div class="contenedor-card">
+    <div class="card" style="width: 18rem;">
+    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/132.png" class="card-img-top" alt="..."> 
+    </div>
+    <div class="card-texto">
+    <p>N.132</p>
+    <h4>Ditto</h4>
+    </div>
+    </div>
+   
+    <div class="contenedor-card">
+        <div class="card" style="width: 18rem;">
+        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" class="card-img-top" alt="..."> 
+        </div>
+        <div class="card-texto">
+        <p>N.001</p>
+        <h4>Bulbasaur</h4>
+        </div>
+        </div>
+
+        <div class="contenedor-card">
+            <div class="card" style="width: 18rem;">
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/073.png" class="card-img-top" alt="..."> 
+            </div>
+            <div class="card-texto">
+            <p>N.073</p>
+            <h4>Tentacruel</h4>
+            </div>
+            </div>
+</div>
+
+<div class="tarjetas">
+   
+    <div class="contenedor-card">
+    <div class="card" style="width: 18rem;">
+    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png" class="card-img-top" alt="..."> 
+    </div>
+    <div class="card-texto">
+    <p>N.025</p>
+    <h4>Pikachu</h4>
+    </div>
+    </div>
+   
+    <div class="contenedor-card">
+        <div class="card" style="width: 18rem;">
+        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/076.png" class="card-img-top" alt="..."> 
+        </div>
+        <div class="card-texto">
+        <p>N.076</p>
+        <h4>Golem</h4>
+        </div>
+        </div>
+
+        <div class="contenedor-card">
+            <div class="card" style="width: 18rem;">
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/050.png" class="card-img-top" alt="..."> 
+            </div>
+            <div class="card-texto">
+            <p>N.050</p>
+            <h4>Diglett</h4>
+            </div>
+            </div>
+</div>
+
+<div class="tarjetas">
+   
+    <div class="contenedor-card">
+    <div class="card" style="width: 18rem;">
+    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png" class="card-img-top" alt="..."> 
+    </div>
+    <div class="card-texto">
+    <p>N.054</p>
+    <h4>Psyduck</h4>
+    </div>
+    </div>
+   
+    <div class="contenedor-card">
+        <div class="card" style="width: 18rem;">
+        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png" class="card-img-top" alt="..."> 
+        </div>
+        <div class="card-texto">
+        <p>N.052</p>
+        <h4>Miau</h4>
+        </div>
+        </div>
+
+        <div class="contenedor-card">
+            <div class="card" style="width: 18rem;">
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png" class="card-img-top" alt="..."> 
+            </div>
+            <div class="card-texto">
+            <p>N.004</p>
+            <h4>Charmander</h4>
+            </div>
+            </div>
+</div>
+</div>
+
+ <main class="item-container" id="item-container"></main>
+ <div id="request-target"></div>
+ <!-- cargando-->
+
+ <div class="cargando">
+    <img src="img/pokeball.png" alt="pokeball" class="cargando-img">
+    <p>Cargando...</p>
+ </div>
+
+
+
+ <!-- header 
+<section>
+    <input type="text" id="nombrePokemon" placeholder="Pokemon o ID">
+    <button id="buscarPokemon" ></button>
+    <button id="borrarPokemon" ></button>
+</section>
+-->
+
+</main>
+
+
+
+
+
+
+
+
+
+
+    <script src="js/main.js"> </script>
+</body>
+</html>
